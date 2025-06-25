@@ -7,14 +7,11 @@ What are the top-paying data analyst jobs?
 */
 
 -- check on the tables 
-
-
 SELECT *
 FROM company_dim;
 SELECT* 
 FROM job_postings_fact;
-
--- 
+ 
 SELECT
     job_id,
     job_title,
